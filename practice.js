@@ -42,8 +42,8 @@ var groceries = ["apples","milk","eggs","bread"];
 
 //Code Here
 var doubleCheck = (arr)=>{
-  if(!arr.includes('chocolate')) {
-    arr.push('chocolate');
+  if(!arr.includes("chocolate")) {
+    arr.push("chocolate");
     return arr;
   }
 }
